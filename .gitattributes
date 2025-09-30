@@ -1,0 +1,14 @@
+# Declare files that will be checked out with CRLF
+*.txt eol=crlf
+
+# Declare files that will be checked out with LF
+*.md eol=lf
+*.py eol=lf
+*.yml eol=lf
+
+# Jupyter Notebook files
+*.ipynb linguist-detectable=true
+
+# Mark binary files
+*.mp4 binary
+*.csv binary
