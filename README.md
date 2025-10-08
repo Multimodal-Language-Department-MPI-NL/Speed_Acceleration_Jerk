@@ -65,12 +65,6 @@ jupyter lab
 # Open notebooks/Gesture_Kinematic_Analysis.ipynb
 ```
 
-### Basic Usage
-
-1. Load your body keypoint CSV (from MediaPipe extraction)
-2. Optionally normalize and smooth
-3. Compute speed, vertical velocity, acceleration, jerk
-4. Inspect interactive plots and export features
 
 ## 📈 Data Format
 
