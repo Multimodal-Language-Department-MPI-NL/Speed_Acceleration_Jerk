@@ -1,5 +1,7 @@
 # Gesture Kinematic Features: Speed, Acceleration, Jerk
 
+> Attribution: Use the script prepared for the focus group session. Attribute to this Envision Box module: [Module](https://www.envisionbox.org/embedded_MergingMultimodal_inPython.html)
+
 Compute kinematic features from MediaPipe keypoint time series: speed, vertical velocity, acceleration, and jerk.
 
 ## 🔬 Research Context
@@ -14,7 +16,7 @@ Part of the gesture analysis pipeline. This module derives motion dynamics after
 4. **Derive kinematics**: Speed, vertical velocity, acceleration, jerk
 5. **Visualize**: Interactive plots for quick inspection
 
-## 📊 Analysis Process
+## 📊 Smoothing Process
 
 1. **Begin with Cleaned Data**: Prefer smoothed/normalized input from upstream modules
 2. **Inspect**: Plot key axes and landmarks to assess noise and trends
@@ -22,7 +24,7 @@ Part of the gesture analysis pipeline. This module derives motion dynamics after
 4. **Compute Derivatives**: Finite differences with optional smoothing of results
 5. **Evaluate & Save**: Visualize and export features for downstream tasks
 
-## 🔧 Methods
+## 🔧 Smoothing Techniques
 
 - **Normalization**: Shoulder-midpoint centering; scaled by shoulder distance (notebook)
 - **Smoothing**: Butterworth low-pass, zero-phase via `filtfilt`
@@ -83,9 +85,9 @@ jupyter lab
 
 ## 🔗 Related Projects
 
-- `../MediaPipe_keypoints_extraction/`
-- `../Smoothing/`
-- `../Normalization/`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/MediaPipe_keypoints_extraction`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Smoothing`
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Normalization`
 
 ## 📖 References
 
