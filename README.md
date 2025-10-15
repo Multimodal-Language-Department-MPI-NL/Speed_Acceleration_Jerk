@@ -2,7 +2,7 @@
 
 > Attribution: Use the script prepared for the focus group session. Attribute to this Envision Box module: [Module](https://www.envisionbox.org/embedded_MergingMultimodal_inPython.html)
 
-Compute kinematic features from MediaPipe keypoint time series: speed, vertical velocity, acceleration, and jerk.
+This module shows how to calculate movement speed. It also calculates acceleration (changes in speed over time) and jerk (e.g., sudden movements) which are derivatives of speed. 
 
 ## 🔬 Research Context
 
