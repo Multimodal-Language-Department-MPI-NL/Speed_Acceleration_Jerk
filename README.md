@@ -1,6 +1,14 @@
 # Gesture Kinematic Features: Speed, Acceleration, Jerk
 
-> Attribution: Use the script prepared for the focus group session. Attribute to this Envision Box module: [Module](https://www.envisionbox.org/embedded_MergingMultimodal_inPython.html)
+## Attribution
+
+The custom functions for smoothing and calculating speed vectors and derivatives are sourced from the following EnvisionBox module: **Selecting, smoothing, and deriving measures from motion tracking, and merging with acoustics and annotations in Python**.
+
+If you found this code helpful for your research, please cite the original source code material from the EnvisionBox website:
+
+**Pouw, W. (2023).** *Selecting, smoothing, and deriving measures from motion tracking, and merging with acoustics and annotations.* [21.10.2025]. Retrieved from: https://envisionbox.org/embedded_MergingMultimodal_inPython.html
+
+---
 
 This module shows how to calculate movement speed. It also calculates acceleration (changes in speed over time) and jerk (e.g., sudden movements) which are derivatives of speed. 
 
